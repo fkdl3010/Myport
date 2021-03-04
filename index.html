@@ -11,7 +11,8 @@
 
 	<!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
-
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@900&display=swap" rel="stylesheet">
 	<!-- Bootstrap -->
 	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
 
@@ -23,8 +24,7 @@
 	<link type="text/css" rel="stylesheet" href="css/magnific-popup.css" />
 
 	<!-- Font Awesome Icon -->
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 	<!-- Custom stlylesheet -->
 	<link type="text/css" rel="stylesheet" href="css/style.css" />
 
@@ -94,31 +94,92 @@
 			<div class="overlay"></div>
 		</div>
 		<!-- /Background Image -->
+		<div class="home-wrapper-custom">
 
+			<div class="about-home">
+				<div class="about-home-contents table-cell">
+					<div class="about-home-inner-contents">
+						<div class="about-home-inner-contents-head">
+							GIL
+						</div>
+						<div class="about-home-inner-contents-content">
+							<span class="about-home-inner-contents-content-title">N A M E</span>
+							<span class="about-home-inner-contents-content-text">Park Sang Gil</span><br><br>
+							<span class="about-home-inner-contents-content-title">R O L E</span>
+							<span class="about-home-inner-contents-content-text">Full Stack Developer</span><br><br>
+							<span class="about-home-inner-contents-content-title">E M A I L</span>
+							<span class="about-home-inner-contents-content-text">fkdl3919@gmail.com</span><br><br>
+							<span class="about-home-inner-contents-content-title">P H O N E</span>
+							<span class="about-home-inner-contents-content-text">010-4756-2845</span><br><br>
+						</div>
+						<div class="icons">
+							<span class="icon-wrapper">
+								<i class="fab fa-github icon" onclick="javascript:openInNewTab('https://github.com/fkdl3010')"></i>
+								
+							</span>
+
+							<span class="icon-wrapper">
+								<a href=”mailto:fkdl3919@gmail.com“>
+									<i class="fas fa-envelope icon"></i>
+								</a>
+
+							</span>
+
+							<span class="icon-wrapper">
+								<i class="fas fa-blog icon"></i>
+
+							</span>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /Nav -->
+	
+			<!-- 메인 -->
+			<div class="main-home">
+
+				<div class="main-contents">
+
+					<div class="inner-main-contents">
+						<div class="profile-box">
+							<div class="profile">
+
+							</div>
+						</div>
+						<div class="name">
+							<h1 class="name-text">
+								SANG <br>
+								<span class="name-text point-text">GIL</span>
+							</h1>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
 		<!-- Nav -->
 		
-		<!-- /Nav -->
-
 		<!-- home wrapper -->
-		<div class="home-wrapper">
+		<!-- <div class="home-wrapper">
 			<div class="container">
-				<div class="row">
+				<div class="row"> -->
 
 					<!-- home content -->
-					<div class="col-md-10 col-md-offset-1">
+					<!-- <div class="col-md-10 col-md-offset-1">
 						<div class="home-content">
-							<h1 class="white-text">We Are Creative Agency</h1>
+							<h1 class="white-text"></h1>
 							<p class="white-text">Morbi mattis felis at nunc. Duis viverra diam non justo. In nisl. Nullam sit amet magna in magna gravida vehicula. Mauris tincidunt sem sed arcu. Nunc posuere.
 							</p>
 							<button class="white-btn">Get Started!</button>
 							<button class="main-btn">Learn more</button>
 						</div>
-					</div>
+					</div> -->
 					<!-- /home content -->
 
-				</div>
+				<!-- </div>
 			</div>
-		</div>
+		</div> -->
 		<!-- /home wrapper -->
 
 	</div>
@@ -1008,6 +1069,12 @@
 		function blur(){
 			$('#menu :focus').blur();
 		}
+	</script>
+	<script>
+    function openInNewTab(url) {
+        var win = window.open(url, '_blank');
+        
+    }
 	</script>
 
 </body>

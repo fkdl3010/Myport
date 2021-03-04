@@ -1755,3 +1755,102 @@ header {
             transform:scale(0);
   }
 }
+/* 메인 페이지 */
+.about-home{
+    display: table;
+    width: 400px;
+    height: 100vh;
+    background-color: #2d2f3d;
+}
+.table-cell{
+    display: table-cell;
+}
+.about-home-contents{
+    vertical-align: middle;
+    padding-bottom: 100px;
+}
+.about-home-inner-contents{
+        width: 70%;
+        margin: auto;
+}
+.about-home-inner-contents-head {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 100px;
+}
+.about-home-inner-contents-content-title{
+    display: block;
+    color: #457ee0;
+    font-size: 12px;
+    margin: 50px 0px 10px 0px;
+}
+.about-home-inner-contents-content-text {
+    color: #d5d5dc;
+}
+.main-home{
+    display: table;
+    width: 100%;
+    height: 100vh;
+}
+.inner-main-contents{
+    margin:auto;
+    width: 500px;
+    height: 600px;
+}
+.home-wrapper-custom{
+    display: flex;
+}
+.main-contents{
+    display: table-cell;
+    vertical-align: middle;
+}
+.profile-box{
+    width: 100%;
+    height: 350px;
+}
+.profile {
+    height: 100%;
+    background-color: black;
+    border-radius: 300px;
+    width: 350px;
+    margin: auto;
+}
+.name {
+    text-align: center;
+}
+.name-text{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 135px;
+    line-height: 0.9;
+    font-weight: 900;
+    color: #457EE0;
+    text-shadow: rgb(0,0,0,0.5);
+    text-shadow: 0px 0px 10px rgb(0 0 0 / 48%);
+}
+.icon {
+    font-size: 28px;
+    cursor: pointer;
+}
+.icons {
+    position: absolute;
+    margin-top: 50px;
+}
+span.icon-wrapper {
+    margin: 25px;
+}
+.icon:hover{
+    color: white;
+    transition-timing-function: linear;
+    transition-duration: 0.3s;
+    transition-delay: 0s;
+}
+
+@keyframes icon{
+        to { 
+            color: white;
+        }
+    }
+.point-text {
+   
+  }
