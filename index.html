@@ -31,6 +31,9 @@
 	<!-- fullPage -->
 	<link type="text/css" rel="stlylesheet" href="css/jquery.fullpage2.9.4.css"/>
 
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
@@ -153,8 +156,11 @@
 								<span class="name-text point-text">GIL</span>
 							</h1>
 						</div>
-					</div>
+						<div class="scroll-box">
 
+								<span class="scroll"></span>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -188,56 +194,28 @@
 	<!-- About -->
 	<div id="about" class="section md-padding" class="section">
 
-		<!-- Container -->
-		<div class="container">
+		<div class="about-container">
+			<div class="about-container-wrapper">
 
-			<!-- Row -->
-			<div class="row">
-
-				<!-- Section header -->
-				<div class="section-header text-center">
-					<h2 class="title">Welcome to Website</h2>
-				</div>
-				<!-- /Section header -->
-
-				<!-- about -->
-				<div class="col-md-4">
-					<div class="about">
-						<i class="fa fa-cogs"></i>
-						<h3>Fully Customizible</h3>
-						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
-						<a href="#">Read more</a>
+				<div class="about-profile-box">
+					<div class="about-profile-box-image">
+	
+					</div>
+					<div class="about-profile-box-contents">
+						
 					</div>
 				</div>
-				<!-- /about -->
-
-				<!-- about -->
-				<div class="col-md-4">
-					<div class="about">
-						<i class="fa fa-magic"></i>
-						<h3>Awesome Features</h3>
-						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
-						<a href="#">Read more</a>
-					</div>
+	
+				<div class="center-box">
+	
 				</div>
-				<!-- /about -->
-
-				<!-- about -->
-				<div class="col-md-4">
-					<div class="about">
-						<i class="fa fa-mobile"></i>
-						<h3>Fully Responsive</h3>
-						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
-						<a href="#">Read more</a>
-					</div>
+	
+				<div class="right-box">
+	
 				</div>
-				<!-- /about -->
-
 			</div>
-			<!-- /Row -->
 
 		</div>
-		<!-- /Container -->
 
 	</div>
 	<!-- /About -->
@@ -1054,13 +1032,24 @@
 						document.querySelector('#nav').classList.remove('disNone');
 
 					}
+					jQuery('.section [data-aos]').removeClass("aos-animate");
 				},
 				afterRender: function(){
 					var pluginContainer = this;
 					location.href='#firstSection';
 					document.querySelector('#nav').classList.add('disNone');
+				},
+			
+				onSlideLeave: function(){
+						jQuery('.slide [data-aos]').removeClass("aos-animate");
+				},
+				afterSlideLoad: function(){
+						jQuery('.slide.active [data-aos]').addClass("aos-animate");
+				},
+				afterLoad: function(){
+						jQuery('.section.active [data-aos]').addClass("aos-animate");
+					//jQuery('.fp-table.active .aos-init').addClass('aos-animate');
 				}
-
 			});
 
 			//methods
@@ -1069,6 +1058,7 @@
 		function blur(){
 			$('#menu :focus').blur();
 		}
+		AOS.init();
 	</script>
 	<script>
     function openInNewTab(url) {
