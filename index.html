@@ -29,7 +29,7 @@
 	<link type="text/css" rel="stylesheet" href="css/style.css" />
 
 	<!-- fullPage -->
-	<link type="text/css" rel="stlylesheet" href="css/jquery.fullpage2.9.4.css"/>
+	<link type="text/css" rel="stylesheet" href="css/jquery.fullpage2.9.4.css"/>
 
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -74,7 +74,7 @@
 			<ul id="menu" class="main-nav nav navbar-nav navbar-right">
 				<li data-menuanchor="firstSection"><a href="#firstSection" id="Home">Home</a></li>
 				<li data-menuanchor="secondSection"><a href="#secondSection" id="About">About</a></li>
-				<li data-menuanchor="thirdSection"><a href="#thirdSection" id="Portfolio">Portfolio</a></li>
+				<li data-menuanchor="thirdSection"><a href="#thirdSection" id="Project">Project</a></li>
 				<li data-menuanchor="fourthSection"><a href="#fourthSection" id="Services">Services</a></li>
 				<li data-menuanchor="firstSection"><a href="#pricing" id="">Prices</a></li>
 				<li data-menuanchor="firstSection"><a href="#team" id="">Team</a></li>
@@ -91,7 +91,7 @@
 	</nav>
 
 	<div id="fullpage">
-	<div id="home" class="section">
+	<div  class="section">
 		<!-- Background Image -->
 		<div class="bg-img" style="background-image: url('./img/background1.jpg');">
 			<div class="overlay"></div>
@@ -192,26 +192,134 @@
 	<!-- /Header -->
 
 	<!-- About -->
-	<div id="about" class="section md-padding" class="section">
+	<div id="about" class="section">
 
 		<div class="about-container">
 			<div class="about-container-wrapper">
 
 				<div class="about-profile-box">
-					<div class="about-profile-box-image">
-	
+					<div class="about-profile-box-image" data-aos="fade-down-right">
+						<img class="about-image" alt="profile" src="img/about-profile.jpg">
 					</div>
-					<div class="about-profile-box-contents">
-						
+					<div class="about-profile-box-contents" data-aos="fade-up-right">
+						<span class="about-contents-title">
+							Profile
+						</span>
+						<hr class="horizon">
+						<span class="about-name profile-contents">박상길 / Park Sang gil</span>
+						<span class="about-birth profile-contents">1995.12.09</span>
+						<span class="about-address profile-contents">서울특별시 구로구 구로동</span>
+						<span class="about-tel profile-contents">Tel.010-4756-2845</span>
+						<span class="about-email profile-contents">Email. <a href="mailto:fkdl3919@gmail.com">fkdl3919@gmail.com</a></span>
+						<span class="about-github profile-contents">Github. <a href="javascript:openInNewTab('https://fkdl3010.github.io/')">https://github.com/fkdl3010</a></span>
 					</div>
 				</div>
 	
-				<div class="center-box">
-	
+				<div class="center-box" data-aos="fade-down">
+					<span class="center-box-title">
+						반갑습니다! <span class="center-box-title-point">웹 개발자 박상길 </span>입니다.
+					</span><br>
+					<hr class="horizon">
+					<span class="temp center-contents"><img class="introduce-icon" src="img/dev-icon/icons8-training-80.png">&nbsp;&nbsp; 저를 <span class="center-contents-point">소개</span> 하겠습니다 !</span>
+					<span class="center-box-head center-contents"><img class="bulb" alt="전구" src="img/electric-light-bulb_1f4a1.png"> 저는 꼼꼼한 개발자 입니다.</span>
+					<span class="center-box-contents center-contents">개발 할때 자칫 놓칠 수 있는 부분들을 사용자의 눈높이에 맞춰 하나하나 꼼꼼히 챙겨 가는 스타일입니다.</span>
+
+					<span class="center-box-head center-contents"><img class="bulb" alt="전구" src="img/electric-light-bulb_1f4a1.png"> 저는 머리로 이해하려는 개발자 입니다.</span>
+					<span class="center-box-contents center-contents">코드들을 깊게 이해하려고 항상 노력하며 이해도 높은 코드를 활용해 짜임새 있는 코드를 작성합니다.</span>
+
+					<span class="center-box-head center-contents"><img class="bulb" alt="전구" src="img/electric-light-bulb_1f4a1.png"> 저는 욕심이 많은 개발자 입니다.</span>
+					<span class="center-box-contents center-contents">배운 내용은 하나도 놓치고 싶지않아 항상 까먹지 않도록 기록합니다.<br>개발 블로그 를 통해 배운 내용들을 항상 정리하고 기록하고 있습니다.</span>
+
+					<span class="center-box-head center-contents"><img class="bulb" alt="전구" src="img/electric-light-bulb_1f4a1.png"> 저는 정직한 코드를 작성하려 노력합니다.</span>
+					<span class="center-box-contents center-contents">단순히 작동만 되는 코드가 아닌 작동도 하되 가독성도 높고 후에 유지보수 측면까지 생각하며 설계하는 개발자입니다.</span>
+
+					<span class="center-box-head center-contents"><img class="bulb" alt="전구" src="img/electric-light-bulb_1f4a1.png"> 저는 FullStack 개발자가 되는 것이 목표입니다 !</span>
+					<span class="center-box-contents center-contents">기술은 항상 빠르게 변하고 진화하고 있습니다. 그만큼 배워야할 내용도 많지만 끝없이 펼처진 배움의 길이 저를 설레게하고 가슴뛰게합니다. 그렇기에 저는 배우고 또 배우며 항상 목표를 향해 뛰어가는 중입니다!</span>
 				</div>
 	
-				<div class="right-box">
-	
+				<div class="right-box" data-aos="fade-left">
+					<div class="top-box">
+						<div class="top-box-title right-box-title">Education</div>
+						<hr class="horizon">
+						2020.09.14 ~ 2021.03.02<br>
+
+						- 스프링 기반 풀스택 개발자 양성 과정	
+					</div>
+
+					<div class="middle-box">
+						<div class="top-box-title right-box-title">Certificate</div>
+						<hr class="horizon">
+						2020 SQL개발자(SQLD자격증)
+					</div>
+
+					<div class="bottom-box">
+						<div class="top-box-title right-box-title">Skill</div>
+						<hr class="horizon">
+
+						<div class="skills">
+
+							<div class="back-end dev-skill">Back-end</div><br>
+							<!-- 백엔드 스킬 -->
+							<div class="back-end-skills">
+								<div class="skill-icon java-icon">
+									<div class="icon-hover">
+										Java
+									</div>
+
+								</div>
+								
+								<div class="skill-icon spring-icon">
+									<div class="icon-hover">
+										Spring
+									</div>
+								</div>
+								<div class="skill-icon oracle-icon">
+									<div class="icon-hover">
+										Oracle
+									</div>
+								</div>
+							</div>
+							<!-- 프론트엔드 스킬 -->
+							<div class="front-end dev-skill">Front-end</div><br>
+							<div class="back-end-skills">
+								<div class="skill-icon html-icon">
+									<div class="icon-hover">
+										HTML5
+									</div>
+								</div>
+								<div class="skill-icon css-icon">
+									<div class="icon-hover">
+										CSS
+									</div>
+								</div>
+								<div class="skill-icon javascript-icon">
+									<div class="icon-hover">
+										JavaScript
+									</div>
+								</div>
+							</div>
+							<!-- 기타 스킬 -->
+							<div class="etc dev-skill">etc</div><br>
+							<div class="back-end-skills">
+								<div class="skill-icon git-icon">
+									<div class="icon-hover">
+										Git
+									</div>
+								</div>
+								<div class="skill-icon github-icon">
+									<div class="icon-hover">
+										Github
+									</div>
+								</div>
+								<div class="skill-icon sourcetree-icon">
+									<div class="icon-hover">
+										Sourcetree
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
 				</div>
 			</div>
 
@@ -222,117 +330,17 @@
 
 
 	<!-- Portfolio -->
-	<div id="portfolio" class="section md-padding bg-grey">
+	<div id="Project" class="section">
+		
+		<div class="slide" data-anchor="slide1">
+			
+		</div>
 
-		<!-- Container -->
-		<div class="container">
-
-			<!-- Row -->
-			<div class="row">
-
-				<!-- Section header -->
-				<div class="section-header text-center">
-					<h2 class="title">Featured Works</h2>
-				</div>
-				<!-- /Section header -->
-
-				<!-- Work -->
-				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="./img/work1.jpg" alt="">
-					<div class="overlay"></div>
-					<div class="work-content">
-						<span>Category</span>
-						<h3>Lorem ipsum dolor</h3>
-						<div class="work-link">
-							<a href="#"><i class="fa fa-external-link"></i></a>
-							<a class="lightbox" href="./img/work1.jpg"><i class="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-				<!-- /Work -->
-
-				<!-- Work -->
-				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="./img/work2.jpg" alt="">
-					<div class="overlay"></div>
-					<div class="work-content">
-						<span>Category</span>
-						<h3>Lorem ipsum dolor</h3>
-						<div class="work-link">
-							<a href="#"><i class="fa fa-external-link"></i></a>
-							<a class="lightbox" href="./img/work2.jpg"><i class="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-				<!-- /Work -->
-
-				<!-- Work -->
-				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="./img/work3.jpg" alt="">
-					<div class="overlay"></div>
-					<div class="work-content">
-						<span>Category</span>
-						<h3>Lorem ipsum dolor</h3>
-						<div class="work-link">
-							<a href="#"><i class="fa fa-external-link"></i></a>
-							<a class="lightbox" href="./img/work3.jpg"><i class="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-				<!-- /Work -->
-
-				<!-- Work -->
-				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="./img/work4.jpg" alt="">
-					<div class="overlay"></div>
-					<div class="work-content">
-						<span>Category</span>
-						<h3>Lorem ipsum dolor</h3>
-						<div class="work-link">
-							<a href="#"><i class="fa fa-external-link"></i></a>
-							<a class="lightbox" href="./img/work4.jpg"><i class="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-				<!-- /Work -->
-
-				<!-- Work -->
-				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="./img/work5.jpg" alt="">
-					<div class="overlay"></div>
-					<div class="work-content">
-						<span>Category</span>
-						<h3>Lorem ipsum dolor</h3>
-						<div class="work-link">
-							<a href="#"><i class="fa fa-external-link"></i></a>
-							<a class="lightbox" href="./img/work5.jpg"><i class="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-				<!-- /Work -->
-
-				<!-- Work -->
-				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="./img/work6.jpg" alt="">
-					<div class="overlay"></div>
-					<div class="work-content">
-						<span>Category</span>
-						<h3>Lorem ipsum dolor</h3>
-						<div class="work-link">
-							<a href="#"><i class="fa fa-external-link"></i></a>
-							<a class="lightbox" href="./img/work6.jpg"><i class="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-				<!-- /Work -->
-
-			</div>
-			<!-- /Row -->
+		<div class="slide" data-anchor="slide2">
 
 		</div>
-		<!-- /Container -->
 
-	</div>
+		</div>
 	<!-- /Portfolio -->
 
 	<!-- Service -->
@@ -1020,7 +1028,6 @@
 				//options here
 				autoScrolling:true,
 				scrollHorizontally: true,
-				navigation: true,
 				anchors:['firstSection','secondSection','thirdSection','fourthSection'],
 				menu: '#menu',
 				onLeave: function(origin, destination, direction){
@@ -1049,7 +1056,8 @@
 				afterLoad: function(){
 						jQuery('.section.active [data-aos]').addClass("aos-animate");
 					//jQuery('.fp-table.active .aos-init').addClass('aos-animate');
-				}
+				},
+				slidesNavigation: true
 			});
 
 			//methods

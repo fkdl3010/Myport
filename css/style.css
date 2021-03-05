@@ -1897,30 +1897,212 @@ span.icon-wrapper {
       opacity: 0;
     }
   }
-
+/* About */
 .about-container{
-    border: 1px solid black;
-    height: 100vh;
+    /* height: 100vh; */
 }
 .about-container-wrapper{
     display: flex;
-    height: 100vh;
+    height: 86vh;
     width: 1500px;
     margin:auto;
-    border: 1px solid black;
+    position: relative;
+    top: -25px;
+    margin-top: 100px;
 }
 
 .about-profile-box{
-    border: 1px solid black;
-    width: 500px;
+    width: 450px;
 }
+
+.about-profile-box-image{
+    width: 100%;
+    height: 600px;
+    padding: 30px;
+}
+.about-profile-box-contents{
+    width: 100%;
+    height: 300px;
+    
+}
+
+.center-box, .about-profile-box-contents{
+    padding: 30px;
+}
+
+.about-contents-title, .right-box-title{
+    color: #457ee0;
+    font-size: 20px;
+}
+.center-box-title{
+    color: black;
+    font-size: 32px;
+}
+.center-box-title-point{
+    font-weight: 600;
+    color:#457ee0;
+}
+
+.about-tel.profile-contents {
+    margin-top: 10px;
+}
+.profile-contents, .center-contents{
+    display: block;
+}
+.introduce-icon{
+    width: 35px;
+}
+.temp{
+    text-align: center;
+}
+.center-contents-point{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+img.bulb {
+    width: 40px;
+}
+.temp.center-contents {
+    margin: 20px 0px 10px 0px;
+}
+.center-box-head.center-contents {
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.center-contents:first-of-type{
+    margin-top: 0px;
+}
+.center-box-contents {
+    color: #3d4d63;
+    padding-left: 40px;
+}
+
+
+.about-image {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.horizon{
+    margin-top: 3px;
+    border-top: 1px solid #000;
+}
+
 .center-box{
-    border: 1px solid black;
-    width: 500px;
+    border-left: 1px solid #868F9B;
+    border-right: 1px solid #868F9B;
+    width: 600px;
+    color: black;
 
 }
 .right-box{
-    border: 1px solid black;
-    width: 500px;
-
+    width: 450px;
 }
+
+.right-box > div {
+    padding: 30px;
+}
+.top-box{
+    height: 200px;
+}
+.middle-box{
+    height: 200px;
+}
+.bottom-box{
+    height: 500px;
+}
+.dev-skill{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    border-bottom: 1px solid black;
+    display: inline-block;
+}
+.skills{
+    text-align: center;
+}
+.skill-icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0px 10px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 20%), 0 3px 6px rgb(0 0 0 / 20%);
+}
+
+/* 백앤드 */
+.java-icon{
+    background-image: url('../img/dev-icon/java.png');
+    background-size: 60px 60px;
+}
+.icon-hover{
+    visibility: hidden;
+    float: left;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    word-break: break-all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    
+}
+.skill-icon:hover > div{
+    visibility: visible;
+    color: white;
+    background-color: rgb(72 72 72 / 83%);
+    transition-timing-function: linear;
+    transition-duration: 0.3s;
+    transition-delay: 0s;
+}
+.spring-icon{
+    background-image: url('../img/dev-icon/icons8-spring-logo-144.png');
+    background-size: 60px 60px;
+}
+.oracle-icon{
+    background-image: url('../img/dev-icon/icons8-oracle-logo-144.png');
+    background-size: 60px 60px;
+}
+
+/* 프론트 */
+.html-icon{
+    background-image: url('../img/dev-icon/html-5.png');
+    background-size: 60px 60px;
+}
+.css-icon{
+    background-image: url('../img/dev-icon/css.png');
+    background-size: 60px 60px;
+}
+.javascript-icon{
+    background-image: url('../img/dev-icon/icons8-javascript-144.png');
+    background-size: 60px 60px;
+}
+
+/* etc */
+.git-icon{
+    background-image: url('../img/dev-icon/icons8-git-144.png');
+    background-size: 60px 60px;
+}
+.github-icon{
+    background-image: url('../img/dev-icon/icons8-github-128.png');
+    background-size: 60px 60px;
+}
+.sourcetree-icon{
+    background-image: url('../img/dev-icon/icons8-sourcetree-128.png');
+    background-size: 60px 60px;
+}
+
+.back-end-skills{
+    display: table;
+    margin:auto;
+    margin-top: 10px;
+}
+
+/* 프로젝트 */
+
+
