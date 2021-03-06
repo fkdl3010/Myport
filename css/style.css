@@ -1796,8 +1796,10 @@ header {
 }
 .inner-main-contents{
     margin:auto;
-    width: 500px;
-    height: 600px;
+    /* width: 500px;
+    height: 600px; */
+    width: 50vh;
+    height: 60vh;
 }
 .home-wrapper-custom{
     display: flex;
@@ -1808,21 +1810,23 @@ header {
 }
 .profile-box{
     width: 100%;
-    height: 350px;
+    height: 35vh;
 }
 .profile {
     height: 100%;
     background-color: black;
     border-radius: 300px;
-    width: 350px;
+    width: 35vh;
     margin: auto;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 50%), 0 3px 10px rgb(0 0 0 / 50%);
+
 }
 .name {
     text-align: center;
 }
 .name-text{
     font-family: 'Maven Pro', sans-serif;
-    font-size: 135px;
+    font-size: 13.5vh;
     line-height: 0.9;
     font-weight: 900;
     color: #457EE0;
@@ -1904,7 +1908,7 @@ span.icon-wrapper {
 .about-container-wrapper{
     display: flex;
     height: 86vh;
-    width: 1500px;
+    width: 150vh;
     margin:auto;
     position: relative;
     top: -25px;
@@ -1912,31 +1916,37 @@ span.icon-wrapper {
 }
 
 .about-profile-box{
-    width: 450px;
+    /* width: 450px; */
+    width: 45vh;
+    height: 100%;
 }
 
 .about-profile-box-image{
     width: 100%;
-    height: 600px;
-    padding: 30px;
+    /* height: 600px;
+    padding: 30px; */
+    height: 60vh;
+    padding: 3vh;
 }
 .about-profile-box-contents{
     width: 100%;
-    height: 300px;
+    /* height: 300px; */
     
 }
 
 .center-box, .about-profile-box-contents{
-    padding: 30px;
+    /* padding: 30px; */
+    padding: 3vh;
 }
 
 .about-contents-title, .right-box-title{
     color: #457ee0;
-    font-size: 20px;
+    font-size: 2vh;
 }
 .center-box-title{
     color: black;
-    font-size: 32px;
+    /* font-size: 32px; */
+    font-size: 3.2vh;
 }
 .center-box-title-point{
     font-weight: 600;
@@ -1961,15 +1971,18 @@ span.icon-wrapper {
 }
 
 img.bulb {
-    width: 40px;
+    width: 4vh;
 }
 .temp.center-contents {
     margin: 20px 0px 10px 0px;
 }
 .center-box-head.center-contents {
-    font-size: 25px;
-    margin-top: 30px;
-    margin-bottom: 15px;
+    /* font-size: 25px; */
+    font-size: 2.5vh;
+    /* margin-top: 30px;
+    margin-bottom: 15px; */
+    margin-top: 4vh;
+    margin-bottom: 1vh;
 }
 .center-contents:first-of-type{
     margin-top: 0px;
@@ -1982,7 +1995,7 @@ img.bulb {
 
 .about-image {
     width: 100%;
-    height: 550px;
+    height: 55vh;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgb(0 0 0 / 50%), 0 3px 10px rgb(0 0 0 / 50%);
 }
@@ -1994,30 +2007,40 @@ img.bulb {
 
 .center-box{
     border-right: 1px solid #868F9B;
-    width: 600px;
+    width: 60vh;
     color: black;
+    height: 100%;
+    
 
 }
 .right-box{
-    width: 450px;
+    /* width: 450px; */
+
+    width: 43vh;
+
 }
 
 .right-box > div {
-    padding: 30px;
+    padding: 3vh
 }
 .top-box{
-    height: 200px;
+    /* height: 200px; */
+    height: 20vh;
 }
 .middle-box{
-    height: 200px;
+    /* height: 200px; */
+    height: 20vh;
 }
 .bottom-box{
-    height: 500px;
+    /* height: 500px; */
+    height: 50vh;
 }
 .dev-skill{
     text-align: center;
-    margin-top: 20px;
-    font-size: 18px;
+    /* margin-top: 20px;
+    font-size: 18px; */
+    margin-top: 1.5vh;
+    font-size: 1.8vh;
     border-bottom: 1px solid black;
     display: inline-block;
 }
@@ -2025,8 +2048,10 @@ img.bulb {
     text-align: center;
 }
 .skill-icon{
-    width: 60px;
-    height: 60px;
+    /* width: 60px;
+    height: 60px; */
+    width: 6vh;
+    height: 6vh;
     border-radius: 10px;
     display: inline-block;
     margin: 0px 10px;
@@ -2036,7 +2061,7 @@ img.bulb {
 /* 백앤드 */
 .java-icon{
     background-image: url('../img/dev-icon/java.png');
-    background-size: 60px 60px;
+    background-size: 6vh 6vh;
 }
 .icon-hover{
     visibility: hidden;
@@ -2062,52 +2087,54 @@ img.bulb {
 }
 .spring-icon{
     background-image: url('../img/dev-icon/icons8-spring-logo-144.png');
-    background-size: 60px 60px;
+    background-size: 6vh 6vh;
 }
 .oracle-icon{
     background-image: url('../img/dev-icon/icons8-oracle-logo-144.png');
-    background-size: 60px 60px;
+    background-size: 6vh 6vh;
 }
 
 /* 프론트 */
 .html-icon{
     background-image: url('../img/dev-icon/html-5.png');
-    background-size: 60px 60px;
+    background-size: 6vh 6vh;
 }
 .css-icon{
     background-image: url('../img/dev-icon/css.png');
-    background-size: 60px 60px;
+    background-size: 6vh 6vh;
 }
 .javascript-icon{
     background-image: url('../img/dev-icon/icons8-javascript-144.png');
-    background-size: 60px 60px;
+    background-size: 6vh 6vh;
 }
 
 /* etc */
 .git-icon{
     background-image: url('../img/dev-icon/icons8-git-144.png');
-    background-size: 60px 60px;
+    background-size: 6vh 6vh;
 }
 .github-icon{
     background-image: url('../img/dev-icon/icons8-github-128.png');
-    background-size: 60px 60px;
+    background-size: 6vh 6vh;
 }
 .sourcetree-icon{
     background-image: url('../img/dev-icon/icons8-sourcetree-128.png');
-    background-size: 60px 60px;
+    background-size: 6vh 6vh;
 }
 
 .back-end-skills{
     display: table;
     margin:auto;
-    margin-top: 10px;
+    /* margin-top: 10px; */
+    margin-top: 1vh;
 }
 
 /* 프로젝트 */
 .slide-one-container,
 .slide-two-container{
     height: 86vh;
-    width: 1800px;
+    /* width: 1800px; */
+    width: 170vh;
     margin: auto;
     position: relative;
     top: -25px;
@@ -2119,7 +2146,8 @@ img.bulb {
 .slide-two-container-wrapper{
     display: flex;
     width: 100%;
-    height: 870px;
+    /* height: 870px; */
+    height: 87vh;
     margin: auto;
 }
 
@@ -2176,7 +2204,7 @@ span.project-plan-point {
 /* Contact */
 .contact-container{
     height: 86vh;
-    width: 1800px;
+    width: 180vh;
     margin: auto;
     position: relative;
     top: -25px;
@@ -2186,66 +2214,66 @@ span.project-plan-point {
 
 .contact-center{
     width: 100%;
-    height: 700px;
+    height: 70vh;
     margin: auto;
 
 }
 .contact-center-title {
     text-align: center;
     position: relative;
-    bottom: 30px;
+    bottom: 3vh;
 }
 .contact-center-title-contents {
-    font-size: 50px;
+    font-size: 5vh;
     padding-bottom: 5px;
     color: #457ee0;
     border-bottom: 1px solid black;
 }
 .contact-contents-box{
     display: flex;
-    height: 620px;
+    height: 62vh;
 }
 
 .contact-left{
     width: 50%;
-    height: 620px;
+    height: 62vh;
     padding: 20px 20px 20px 80px;
 }
 .contact-right{
     width: 50%;
-    height: 620px;
+    height: 62vh;
     padding: 20px 80px 20px 20px;
 
 }
 .contact-left-image{
     width: 100%;
-    height: 95%;
+    height: 55vh;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgb(0 0 0 / 50%), 0 3px 10px rgb(0 0 0 / 50%); 
 }
 .greeting{
     display: inline-block;
-    margin-top: 10px;
-    font-size: 30px;
+    margin-top: 1vh;
+    font-size: 3vh;
     color: black;
 }
 .contact-comments{
     display: inline-block;
-    font-size: 18px;
+    font-size: 1.8vh;
     margin: 40px 0px 40px 0px;
 }
 .smile{
     color: #457ee0;
 }
 .contact-horizon{
-    margin-top: 20px;
+    margin-top: 2vh;
 }
 .contact-right-bottom {
     text-align: center;
 }
 
 .contact-icon{
-    font-size: 40px;
+    font-size: 4vh;
     cursor: pointer;
 }
 .contact-icon:hover{
@@ -2255,8 +2283,3 @@ span.project-plan-point {
     transition-delay: 0s;
 }
 
-.profile{
-    /* background-image: url('../img/temp.jpeg'); */
-    box-shadow: 5px 5px 10px rgb(0 0 0 / 50%), 0 3px 10px rgb(0 0 0 / 50%);
-    background-size: 335px 350px;
-}
