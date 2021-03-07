@@ -1990,9 +1990,12 @@ span.icon-wrapper {
     
 }
 
-.center-box, .about-profile-box-contents{
+.center-box{
     /* padding: 30px; */
     padding: 3vh;
+}
+.about-profile-box-contents{
+    padding: 0 3vh 3vh 3vh;
 }
 
 .about-contents-title, .right-box-title{
