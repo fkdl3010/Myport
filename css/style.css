@@ -228,9 +228,9 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 .main-btn, .white-btn, .outline-btn {
     display: inline-block;
-    padding: 10px 35px;
-    margin: 3px;
-    border: 2px solid transparent;
+    padding: 1vh 3.5vh;
+    margin: 0.3vh;
+    border: 0.2vh solid transparent;
     border-radius: 3px;
     -webkit-transition: 0.2s opacity;
     transition: 0.2s opacity;
@@ -1968,7 +1968,6 @@ span.icon-wrapper {
     text-align: center;
 }
 .center-contents-point{
-    font-weight: 700;
     color:#457ee0;
 }
 
@@ -2043,7 +2042,7 @@ img.bulb {
     font-size: 18px; */
     margin-top: 1.5vh;
     font-size: 1.8vh;
-    border-bottom: 0.1vh solid black;
+    border-bottom: 0.1vh solid #0000004d;
     display: inline-block;
 }
 .skills{
@@ -2188,7 +2187,7 @@ span.project-plan-point {
     margin-right: 20px;
 }
 .first-btn{
-    margin-right: 20px;
+    margin-right: 2vh;
     margin-left: 0px;
     
 }
@@ -2227,9 +2226,9 @@ span.project-plan-point {
 }
 .contact-center-title-contents {
     font-size: 5vh;
-    padding-bottom: 5px;
+    padding-bottom: 0.5vh;
     color: #457ee0;
-    border-bottom: 0.1vh solid black;
+    border-bottom: 0.1vh solid #0000004d;
 }
 .contact-contents-box{
     display: flex;
