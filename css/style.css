@@ -1815,7 +1815,9 @@ header {
 }
 .profile {
     height: 100%;
-    background-color: black;
+    background-image: linear-gradient( rgba(0, 0, 0, 14%), rgba(0, 0, 0, 0)),url('../img/profile-image.jpg');
+    background-size: 30vh;
+    background-position: 3vh 0vh;
     border-radius: 300px;
     width: 35vh;
     margin: auto;
